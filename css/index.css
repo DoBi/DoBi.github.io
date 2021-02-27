@@ -1,0 +1,100 @@
+/* Colors */
+/* Blue: #ACD1F2 */
+/* Dark Green: #142601 */
+/* Mid Green: #274001 */
+/* Light Green: #58731F */
+/* Brown: #736758 */
+
+body {
+    background-color: #736758;
+}
+
+.text-white-link {
+    color: white;
+}
+
+.text-dark-link {
+    color: var(--dark);
+}
+
+.about {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    background-image: linear-gradient(rgba(20, 38, 1, 0.65), rgba(39, 64, 1, 0.65)), url("../img/intro.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* EDU Section */
+#edu-heading, #work-heading, #contact-heading {
+    margin-top: 1rem;
+    font-size: 3rem;
+}
+
+.section-heading .section-heading-lower {
+    display: block;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.section-heading .section-heading-upper {
+    display: block;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+hr.divider {
+    max-width: 6.25rem;
+    border-width: 0.2rem;
+}
+
+hr.light {
+    border-color: white;
+}
+
+hr.dark {
+    border-color: #343a40;
+}
+
+#edu > div > div > div > p {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 0%;
+}
+
+#edu {
+    background-color: #274001;
+}
+
+#edu a:hover, #work a:hover, #contact a:hover {
+    color: #736758
+}
+
+#work > div > div > div > p {
+    margin-bottom: 0%;
+}
+
+i.fa, i.fas, i.far, i.fab {
+    margin-bottom: 0.5rem;
+}
+
+#footer {
+    padding-top: 0.25rem;
+}
+
+#footer > div > p {
+    margin-bottom: 0rem;
+}
+
+#edu, #work, .about {
+    border-bottom: 1px solid #736758;
+    padding-bottom: 1.5rem;
+}
