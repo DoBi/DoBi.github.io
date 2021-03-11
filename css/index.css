@@ -17,6 +17,15 @@ body {
     color: var(--dark);
 }
 
+.text-no-margin {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+.h-little-margin {
+    margin-bottom: 0.25rem;
+}
+
 .about {
     margin-top: 3rem;
     padding-top: 2rem;
@@ -92,6 +101,10 @@ i.fa, i.fas, i.far, i.fab {
 
 #footer > div > p {
     margin-bottom: 0rem;
+}
+
+#footer a:hover {
+    color: #274001;
 }
 
 #edu, #work, .about {
